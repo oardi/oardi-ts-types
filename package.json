@@ -1,0 +1,30 @@
+{
+  "name": "@oardi/ts-types",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared TypeScript utility types, installed directly from GitHub.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oardi/oardi-ts-types.git"
+  },
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "tsc --project tsconfig.test.json",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "validate": "npm test && npm run format:check"
+  },
+  "devDependencies": {
+    "prettier": "3.10.1",
+    "typescript": "7.0.2"
+  }
+}
