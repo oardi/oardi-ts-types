@@ -1,0 +1,12 @@
+{
+	"files.trimFinalNewlines": true,
+	"editor.renderFinalNewline": "dimmed",
+	"prettier.enable": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.organizeImports": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.validate": ["typescript", "typescriptreact"]
+}

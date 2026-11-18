@@ -35,7 +35,7 @@ them.
 Always use `import type`:
 
 ```ts
-import type { Dictionary, Nullable, Optional } from "@oardi/ts-types";
+import type { Dictionary, Nullable, Optional } from '@oardi/ts-types';
 
 const selectedId: Nullable<string> = null;
 const nickname: Optional<string> = undefined;
